@@ -1,27 +1,338 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="HomePage.css">
-    <title></title>
-</head>
-<body>
-    <div id="main">
-        <div id="header">
-            <div id="navbar">
-                <div id="logo">
-                    <link rel="home" href="#home">
-                </div>
-                <div id="rest">
-                    
-                </div>
-            </div>
-            <div id="hero"></div>
-        </div>
-        <div id="bodymain"></div>
-        <div id="footer"></div>
+<html>
+ <head>
+  <title>
+   Lets Crack Faang
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+        }
+        .hero .cta {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .content h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .profile .details {
+            max-width: 600px;
+        }
+        .profile .details h4 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .profile .details p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .blog-posts {
+            margin-bottom: 40px;
+        }
+        .blog-posts h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .blog-posts .post {
+            margin-bottom: 20px;
+        }
+        .blog-posts .post h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .projects {
+            margin-bottom: 40px;
+        }
+        .projects h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .projects p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+        .projects ul li {
+            margin-bottom: 10px;
+        }
+        .projects ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        footer .links {
+            display: flex;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        footer .links div {
+            flex: 1;
+        }
+        footer .links div a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <h1>
+    Lets Crack Faang
+   </h1>
+   <nav>
+    <a href="#">
+     Home
+    </a>
+    <a href="#">
+     About us
+    </a>
+    <a href="#">
+     Blog
+    </a>
+    <a href="#">
+     Contact
+    </a>
+   </nav>
+  </header>
+  <section class="hero">
+   <h2>
+    FAANG Preparation: My Coding Journey &amp; Insight
+   </h2>
+   <img alt="Banner with FAANG company logos and a call to action button" height="400" src="https://storage.googleapis.com/a1aa/image/GXdroI1DPtLdAJ8YsM9KcZoqp4xefkaUKeFzKaa0oYsFxURnA.jpg" width="800"/>
+   <a class="cta" href="#">
+    Start Your Journey
+   </a>
+  </section>
+  <section class="content">
+   <p>
+    Join me as I take you through my step-by-step process of preparing for FAANG interviews. First and foremost, I'll cover essential coding tutorials. Next, I'll move on to practical projects, data structures, and AI/ML knowledge. Furthermore, you can follow along as I dive deep into algorithms. Additionally, I will tackle coding challenges and showcase a variety of projects. These insights will guide you. They will help you land your dream job at one of the top tech companies.
+   </p>
+  </section>
+  <section class="content profile">
+   <img alt="Profile picture of the author" height="100" src="https://storage.googleapis.com/a1aa/image/EQlsfjL0ykRjBio7wfCeIFftiodyeu4BrMmW4SfGHEmYImK6E.jpg" width="100"/>
+   <div class="details">
+    <h4>
+     Who Am I?
+    </h4>
+    <p>
+     Aspiring Software Developer | MERN Stack Learner | AI/ML Enthusiast
+    </p>
+    <p>
+     I am Ayush Gambhir, a first-year BCA student at VIPS, Delhi, passionate about securing a software development role at leading MNCs like FAANG and MAANG. So, I constantly improve my skills in programming languages like Java, C, and DSA. I actively work on real-world projects and coding challenges.
+    </p>
+    <p>
+     I have completed a software engineering simulation with Goldman Sachs. I have also worked as a marketing intern. During this time, I worked my skills in creating and executing marketing strategies.
+    </p>
+    <p>
+     <strong>
+      Key Skills:
+     </strong>
+    </p>
+    <ul>
+     <li>
+      <strong>
+       Languages:
+      </strong>
+      Java, C, Python
+     </li>
+     <li>
+      <strong>
+       Frameworks:
+      </strong>
+      MERN Stack, TensorFlow
+     </li>
+     <li>
+      <strong>
+       Focus Areas:
+      </strong>
+      Data Structures &amp; Algorithms, AI/ML
+     </li>
+     <li>
+      <strong>
+       Projects:
+      </strong>
+      Web Development, Open-Source Contributions
+     </li>
+    </ul>
+    <a class="cta" href="#">
+     Know More
+    </a>
+   </div>
+  </section>
+  <section class="content blog-posts">
+   <h3>
+    From the Blog
+   </h3>
+   <div class="post">
+    <h4>
+     Preparing for a FAANG Career: My Journey
+    </h4>
+   </div>
+   <div class="post">
+    <h4>
+     C++ vs Python: Key Differences Between The languages
+    </h4>
+   </div>
+   <div class="post">
+    <h4>
+     Python vs Java: Understanding the Key Differences
+    </h4>
+   </div>
+   <div class="post">
+    <h4>
+     C++ vs Java: Understanding the Key Differences
+    </h4>
+   </div>
+   <div class="post">
+    <h4>
+     Why I Chose Java for My FAANG DSA Preparation
+    </h4>
+   </div>
+  </section>
+  <section class="content projects">
+   <h3>
+    My Projects
+   </h3>
+   <p>
+    I strongly believe in learning by doing. Throughout my journey, I have worked on a variety of coding projects. They show my dedication to solving real-world problems. These projects also show my growth as a developer. Additionally, I have conducted several AI/ML experiments, which have further strengthened my technical skillset. As a result, my work covers web development, open-source contributions, and the development of machine learning models. Ultimately, these experiences have prepared me to tackle complex coding challenges with confidence.
+   </p>
+   <ul>
+    <li>
+     <a href="#">
+      GitHub - Explore my GitHub to see my latest projects, from full-stack web apps to contributions to open-source projects.
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      LinkedIn - Connect with me on LinkedIn to follow my coding journey and professional development.
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      Portfolio Website - Dive into my portfolio for a detailed look at the projects I've built. This includes real-world coding challenges and AI/ML experiments.
+     </a>
+    </li>
+   </ul>
+   <p>
+    Whether building websites, preparing for interviews, or experimenting with new tech, I'm always there to learn and share. You can join me in this exciting path to learn and grow.
+   </p>
+  </section>
+  <footer>
+   <div class="links">
+    <div>
+     <h4>
+      Social Links
+     </h4>
+     <a href="#">
+      Instagram
+     </a>
+     <a href="#">
+      Github
+     </a>
+     <a href="#">
+      LinkedIn
+     </a>
     </div>
-    <script src="HomePage.Js"></script>
-</body>
+    <div>
+     <h4>
+      Quick Links
+     </h4>
+     <a href="#">
+      Privacy Policy
+     </a>
+     <a href="#">
+      Home
+     </a>
+     <a href="#">
+      Blog
+     </a>
+     <a href="#">
+      About
+     </a>
+     <a href="#">
+      Contact
+     </a>
+    </div>
+   </div>
+   <p>
+    Lets Crack Faang
+   </p>
+  </footer>
+ </body>
 </html>
